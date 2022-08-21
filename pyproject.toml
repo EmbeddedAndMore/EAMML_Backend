@@ -1,0 +1,25 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Mohammad Armoun", email = "mohamad.armoun@gmail.com"},
+]
+dependencies = [
+    "flask>=2.2.2",
+    "hydra-core>=1.2.0",
+    "mysqlclient>=2.1.1",
+    "flask-sqlalchemy>=2.5.1",
+    "flask-socketio>=5.2.0",
+    "Flask-HTTPAuth>=4.7.0",
+    "PyJWT[crypto]>=2.4.0",
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
